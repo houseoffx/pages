@@ -1,0 +1,591 @@
+<html>
+
+<head>
+        <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style type="text/css">
+                @import url(https://themes.googleusercontent.com/fonts/css?kit=fpjTOVmNbO4Lz34iLyptLUXza5VhXqVC6o75Eld_V98);
+
+                ol {
+                        margin: 0;
+                        padding: 0
+                }
+
+                table td,
+                table th {
+                        padding: 0
+                }
+
+                .c2 {
+                        -webkit-text-decoration-skip: none;
+                        color: #0000e9;
+                        font-weight: 400;
+                        text-decoration: underline;
+                        vertical-align: baseline;
+                        text-decoration-skip-ink: none;
+                        font-size: 12pt;
+                        font-family: "Arial";
+                        font-style: normal
+                }
+
+                .c4 {
+                        color: #000000;
+                        font-weight: 400;
+                        text-decoration: none;
+                        vertical-align: baseline;
+                        font-size: 12pt;
+                        font-family: "Times New Roman";
+                        font-style: normal
+                }
+
+                .c0 {
+                        color: #000000;
+                        font-weight: 400;
+                        text-decoration: none;
+                        vertical-align: baseline;
+                        font-size: 12pt;
+                        font-family: "Arial";
+                        font-style: normal
+                }
+
+                .c1 {
+                        color: #000000;
+                        font-weight: 700;
+                        text-decoration: none;
+                        vertical-align: baseline;
+                        font-size: 12pt;
+                        font-family: "Times New Roman";
+                        font-style: normal
+                }
+
+                .c7 {
+                        -webkit-text-decoration-skip: none;
+                        color: #0000e9;
+                        font-weight: 400;
+                        text-decoration: underline;
+                        text-decoration-skip-ink: none;
+                        font-family: "Arial"
+                }
+
+                .c15 {
+                        text-decoration: none;
+                        vertical-align: baseline;
+                        font-size: 18pt;
+                        font-style: normal
+                }
+
+                .c11 {
+                        text-decoration: none;
+                        vertical-align: baseline;
+                        font-size: 12pt;
+                        font-style: normal
+                }
+
+                .c3 {
+                        padding-top: 0pt;
+                        padding-bottom: 12pt;
+                        line-height: 1.0;
+                        text-align: left
+                }
+
+                .c8 {
+                        font-family: "Arial";
+                        color: #000000;
+                        font-weight: 700
+                }
+
+                .c14 {
+                        font-family: "Arial";
+                        color: #000000;
+                        font-weight: 400
+                }
+
+                .c9 {
+                        background-color: #ffffff;
+                        padding: 1rem;
+                        /* Changed from 72pt to a more responsive unit */
+                        width: auto;
+                        /* Allow content to fill the available width */
+                        max-width: 100%;
+                        /* Changed from 451pt to 100% */
+                }
+
+                .c5 {
+                        font-family: "Times New Roman";
+                        color: #000000;
+                        font-weight: 700
+                }
+
+                .c10 {
+                        font-family: "Times New Roman";
+                        color: #000000;
+                        font-weight: 400
+                }
+
+                .c12 {
+                        color: inherit;
+                        text-decoration: inherit
+                }
+
+                .c13 {
+                        font-weight: 400;
+                        font-family: "Times New Roman"
+                }
+
+                .c6 {
+                        height: 12pt
+                }
+
+                .title {
+                        padding-top: 12pt;
+                        color: #000000;
+                        font-weight: 700;
+                        font-size: 16pt;
+                        padding-bottom: 3pt;
+                        font-family: "Arial";
+                        line-height: 1.0;
+                        orphans: 2;
+                        widows: 2;
+                        text-align: center
+                }
+
+                .subtitle {
+                        padding-top: 0pt;
+                        color: #000000;
+                        font-size: 12pt;
+                        padding-bottom: 3pt;
+                        font-family: "Arial";
+                        line-height: 1.0;
+                        orphans: 2;
+                        widows: 2;
+                        text-align: center
+                }
+
+                li {
+                        color: #000000;
+                        font-size: 12pt;
+                        font-family: "Calibri"
+                }
+
+                p {
+                        margin: 0;
+                        color: #000000;
+                        font-size: 12pt;
+                        font-family: "Calibri"
+                }
+
+                h1 {
+                        padding-top: 12pt;
+                        color: #000000;
+                        font-weight: 700;
+                        font-size: 16pt;
+                        padding-bottom: 3pt;
+                        font-family: "Arial";
+                        line-height: 1.0;
+                        page-break-after: avoid;
+                        orphans: 2;
+                        widows: 2;
+                        text-align: left
+                }
+
+                h2 {
+                        padding-top: 12pt;
+                        color: #000000;
+                        font-weight: 700;
+                        font-size: 14pt;
+                        padding-bottom: 3pt;
+                        font-family: "Arial";
+                        line-height: 1.0;
+                        page-break-after: avoid;
+                        font-style: italic;
+                        orphans: 2;
+                        widows: 2;
+                        text-align: left
+                }
+
+                h3 {
+                        padding-top: 12pt;
+                        color: #000000;
+                        font-weight: 700;
+                        font-size: 13pt;
+                        padding-bottom: 3pt;
+                        font-family: "Arial";
+                        line-height: 1.0;
+                        page-break-after: avoid;
+                        orphans: 2;
+                        widows: 2;
+                        text-align: left
+                }
+
+                h4 {
+                        padding-top: 12pt;
+                        color: #000000;
+                        font-weight: 700;
+                        font-size: 14pt;
+                        padding-bottom: 3pt;
+                        font-family: "Calibri";
+                        line-height: 1.0;
+                        page-break-after: avoid;
+                        orphans: 2;
+                        widows: 2;
+                        text-align: left
+                }
+
+                h5 {
+                        padding-top: 12pt;
+                        color: #000000;
+                        font-weight: 700;
+                        font-size: 13pt;
+                        padding-bottom: 3pt;
+                        font-family: "Calibri";
+                        line-height: 1.0;
+                        font-style: italic;
+                        orphans: 2;
+                        widows: 2;
+                        text-align: left
+                }
+
+                h6 {
+                        padding-top: 12pt;
+                        color: #000000;
+                        font-weight: 700;
+                        font-size: 11pt;
+                        padding-bottom: 3pt;
+                        font-family: "Calibri";
+                        line-height: 1.0;
+                        orphans: 2;
+                        widows: 2;
+                        text-align: left
+                }
+        </style>
+</head>
+
+<body class="c9 doc-content">
+        <p class="c3"><span class="c5 c15">개인정보처리방침</span></p>
+        <p class="c3 c6"><span class="c15 c5"></span></p>
+        <p class="c3"><span class="c4">하우스오브에프엑스
+                        (또는 HouseOfFX, 대표 문지희, 이하
+                        ‘회사'라 한다)의 앱을
+                        다운로드하거나 사용하는 경우
+                        해당 개인정보 처리방침에
+                        동의한 것으로 간주합니다.</span></p>
+        <p class="c3"><span class="c10">회사는 「개인정보
+                        보호법」</span><span class="c0"> 제30조에 따라
+                        정보주체의 개인정보를
+                        보호하고 이와 관련한 고충을
+                        신속하고 원활하게 처리할 수
+                        있도록 하기 위하여 다음과 같이
+                        개인정보처리방침을 수립 및
+                        공개합니다.</span></p>
+        <p class="c3 c6"><span class="c0"></span></p>
+        <p class="c3"><span class="c1">제 1조 (개인정보의
+                        처리목적 및 수집·이용항목)</span>
+        </p>
+        <p class="c3"><span class="c4">회사는 다음의 목적을
+                        위하여 개인정보를 처리하며,
+                        처리하고 있는 개인정보는
+                        다음의 목적 이외의 용도로는
+                        이용되지 않습니다.</span></p>
+        <p class="c3"><span class="c0">1. 고객 지원 및 관리를
+                        위한 목적</span></p>
+        <p class="c3"><span class="c4">민원인의 신원 확인,
+                        사실조사를 위한 연락 및 통지,
+                        처리 결과 통보, 각종 고지 및
+                        통지 등을 목적으로 개인정보를
+                        처리합니다: 이메일 주소,
+                        결제정보, 그 외 기타 상담에
+                        필요한 정보(스크린샷 등)</span></p>
+        <p class="c3"><span class="c0">2. 이벤트 운영을 위한
+                        목적</span></p>
+        <p class="c3"><span class="c4">부정 참여 방지 및 경품
+                        제공을 위한 목적으로
+                        개인정보를 처리합니다: 이메일
+                        주소, 휴대폰번호, SNS ID, 주소, 그 외
+                        이벤트 운영 및 경품 전달을
+                        위한 정보</span></p>
+        <p class="c3"><span class="c0">3. 마케팅을 위한 목적</span></p>
+        <p class="c3"><span class="c4">서비스 안내 및 맞춤형
+                        광고제공을 목적으로
+                        개인정보를 처리합니다: 서비스
+                        이용기록, 쿠키</span></p>
+        <p class="c3"><span class="c0">4. 서비스 분석 및 운영을
+                        위한 목적</span></p>
+        <p class="c3"><span class="c4">서비스의 통계를
+                        확인하고 운여하기 위한
+                        목적으로 개인정보를
+                        처리합니다: 서비스 이용기록,
+                        기기 정보, 크래시 기록</span></p>
+        <p class="c3"><span class="c0">* 서비스 이용기록은
+                        개인이 식별되지 않는 형태로
+                        수집되며, 내부 지표 산정을
+                        위해 이용될 수 있습니다.</span></p>
+        <p class="c3"><span class="c0">* 서비스 이용과정에서
+                        개인정보는 아니지만 다음의
+                        정보가 생성되어 수집될 수
+                        있습니다: 광고식별자,
+                        방문기록, 콘텐츠 이용 정보,
+                        기기 정보(유형, 모델명, OS 버전, APP
+                        버전, 기기 식별자, 언어 및
+                        국가)</span></p>
+        <p class="c3 c6"><span class="c0"></span></p>
+        <p class="c3"><span class="c1">제 2조 (개인정보의 처리
+                        및 보유기간)</span></p>
+        <p class="c3"><span class="c4">회사는 법령에 따른
+                        개인정보 보유, 이용 기간 또는
+                        정보 주체로부터 개인정보를
+                        수집 시에 동의 받은 개인정보
+                        보유, 이용 기간 내에서
+                        개인정보를 처리, 보유합니다.</span>
+        </p>
+        <p class="c3"><span class="c4">각각의
+                        수집·이용목적에 따른
+                        개인정보 처리 및 보유 기간은
+                        다음과 같습니다.</span></p>
+        <p class="c3"><span class="c0">     1. 서비스 제공 :
+                        서비스 공급 완료, 서비스 이용
+                        종료 시까지</span></p>
+        <p class="c3"><span class="c0">     2. 고객상담 : 고충
+                        처리 완료 시까지</span></p>
+        <p class="c3"><span class="c0">     3. 이벤트 : 경품 발송
+                        후 2개월 간 보유, 단 이벤트
+                        참여자가 삭제를 원하는 경우
+                        즉시 파기</span></p>
+        <p class="c3"><span class="c0">     4. 마케팅 : 서비스
+                        공급 완료, 서비스 이용 종료
+                        시까지</span></p>
+        <p class="c3"><span class="c0">     5. 서비스분석 :
+                        서비스 공급 완료, 서비스 이용
+                        종료 시까지</span></p>
+        <p class="c3"><span class="c4">단, 회사가 개인정보를 더
+                        오래 보유해야 할 법적 의무
+                        또는 정당한 사유가 있는 경우
+                        해당 기간 종료 시까지
+                        보유기간이 연장될 수 있습니다.
+                        보유기간의 연장은 관련 법령을
+                        준수하여 이루어집니다.</span></p>
+        <p class="c3"><span class="c0">- 통신비밀보호법: 서비스
+                        이용 관련 정보(접속로그)
+                        3개월</span></p>
+        <p class="c3"><span class="c0">- 전자상거래 등에서의
+                        소비자 보호에 ��한 법률:
+                        소비자의 불만 또는 분쟁처리에
+                        관한 기록 3년, 계약 또는
+                        청약철회 등에 관한 기록 5년,
+                        대금결제 및 재화 등의 공급에
+                        관한 기록 5년</span></p>
+        <p class="c3 c6"><span class="c0"></span></p>
+        <p class="c3"><span class="c1">제 3조 (개인정보의 제3자
+                        제공)</span></p>
+        <p class="c3"><span class="c10">회사는 이용자의
+                        개인정보를 제1조(개인정보의
+                        처리 목적)에서 명시한 범위
+                        내에서만 처리하며, 정보주체의
+                        동의, 법률의 특별한 규정 등
+                        「개인정보 보호법」</span><span class="c0"> 제17조 및 제18조에 해당하는
+                        경우에만 개인정보를 제3자에게
+                        제공합니다.</span></p>
+        <p class="c3"><span class="c4">회사는 법률에 의한
+                        경우를 제외하고는 이용자의
+                        동의 없이 제3자에게 개인정보를
+                        제공하지 않습니다.</span></p>
+        <p class="c3 c6"><span class="c4"></span></p>
+        <p class="c3"><span class="c1">제 4조 (개인정보처리의
+                        위탁)</span></p>
+        <p class="c3"><span class="c4">회사는 개인정보처리를
+                        위탁하고 있지 않습니다. 위탁의
+                        여부나 내용이 변경될 경우에는
+                        지체없이 본
+                        개인정보처리방침을 통하여
+                        공개하도록 하겠습니다.</span></p>
+        <p class="c3 c6"><span class="c4"></span></p>
+        <p class="c3"><span class="c5">제 5조 (이용자와
+                        법정대리인의 권리</span><span class="c8 c11">•의무 및 행사방법)</span></p>
+        <p class="c3"><span class="c0">① 이용자는 회사에 대해
+                        언제든지 개인정보 열람, 정정,
+                        삭제, 처리정지 요구 등의
+                        권리를 행사할 수 있습니다.</span></p>
+        <p class="c3"><span class="c0">② 정보 열람 및 처리정지
+                        요구는 개인정보보호법 제35조
+                        제4항, 제37조 제2항에 의하여
+                        이용자의 권리가 제한될 수
+                        있습니다.</span></p>
+        <p class="c3"><span class="c0">③ 개인정보의 정정 및
+                        삭제 요구는 다른 법령에서 그
+                        개인정보가 수집 대상으로
+                        명시되어 있는 경우에는 그
+                        삭제를 요구할 수 없습니다.</span></p>
+        <p class="c3"><span class="c0">④ 회사는 이용자 권리에
+                        따른 열람의 요구, 정정·삭제의
+                        요구, 처리정지의 요구 시 열람
+                        등 요구를 한 자가 본인이거나
+                        정당한 대리인인지를 확인할 수
+                        있습니다.</span></p>
+        <p class="c3"><span class="c0">⑤  제4항에 따른
+                        권리행사 주체가
+                        대리인(이용자의
+                        법정대리인이나 위임을 받은
+                        자)인 경우 “개인정보 처리
+                        방법에 관한 고시(제2020-7호)” 별지
+                        제11호 서식에 따른 위임장을
+                        제출하셔야 합니다.</span></p>
+        <p class="c3 c6"><span class="c0"></span></p>
+        <p class="c3"><span class="c1">제 6조 (개인정보의 파기)</span>
+        </p>
+        <p class="c3"><span class="c0">① 회사는 이용자로부터
+                        동의 받은 개인정보의
+                        보유기간이 경과하거나
+                        처리목적을 달성하여 더 이상
+                        개인정보가 필요하지 않게 된
+                        경우 지체없이 해당 개인정보를
+                        파기합니다.</span></p>
+        <p class="c3"><span class="c0">② 제1항 해당됨에도
+                        불구하고 다른 법령에 따라
+                        개인정보를 계속 보존하여야
+                        하는 경우에는, 해당 개인정보를
+                        별도의 데이터베이스(DB)로
+                        옮기거나 보관장소를 달리하여
+                        보존합니다. (법령에 따른 보관
+                        기간은 제2조를 참조하시기
+                        바랍니다)</span></p>
+        <p class="c3"><span class="c0">③ 개인정보 파기의 절차
+                        및 방법은 다음과 같습니다.</span></p>
+        <p class="c3"><span class="c0">    1. 파기절차</span></p>
+        <p class="c3"><span class="c0">        회사는 파기
+                        사유가 발생한 개인정보를
+                        선정하고, 회사의 개인정보
+                        보호책임자의 승인을 받아
+                        개인정보를 파기합니다.</span></p>
+        <p class="c3"><span class="c0">   2. 파기방법</span></p>
+        <p class="c3"><span class="c0">      1) 전자적 파일의
+                        형태 : 복구 및 재생이 되지
+                        않도록 기술적인 방법 이용</span></p>
+        <p class="c3"><span class="c0">      2) 종이 문서 :
+                        분쇄기로 분쇄하거나 소각</span></p>
+        <p class="c3 c6"><span class="c0"></span></p>
+        <p class="c3"><span class="c5">제 7조 (개인정보 자동
+                        수집 장치의 설치</span><span class="c8">∙</span><span class="c1">운영 및 거부에 관한 사항)</span></p>
+        <p class="c3"><span class="c4">회사는 이용자들에게
+                        개인화된 광고 등 보다 적합하고
+                        유용한 서비스를 제공하기 위해
+                        다음과 같은 제 3자 서비스를
+                        이용하고 있습니다.</span></p>
+        <p class="c3"><span class="c0">[타사 서비스 공급자의
+                        개인정보 처리방침 링크]</span></p>
+        <p class="c3"><span class="c14">*  </span><span class="c7"><a class="c12"
+                                href="https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://firebase.google.com/support/privacy/%26sa%3DD%26source%3Deditors%26ust%3D1710598047480254%26usg%3DAOvVaw2dtxQhmmmdtjevW0y0J4Ls&sa=D&source=editors&ust=1713880334016481&usg=AOvVaw1ZvCmmzpQ0VrDK2O3Rsoqn">Firebase
+                                Crashlytics</a></span></p>
+        <p class="c3"><span class="c14">*  </span><span class="c7"><a class="c12"
+                                href="https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://firebase.google.com/policies/analytics%26sa%3DD%26source%3Deditors%26ust%3D1710598047480576%26usg%3DAOvVaw2LIPd32aotqplRBoGN8jwh&sa=D&source=editors&ust=1713880334017061&usg=AOvVaw2M5juYKS1f7tDCN_JfDSeo">Google
+                                Analytics for Firebase</a></span></p>
+        <p class="c3"><span class="c0">1. 광고 식별자는 이용자가
+                        소유한 스마트폰 및 태블릿 PC의 OS
+                        설정에서 광고에 관한 기능을
+                        활성화한 경우 자동으로
+                        수집되며, 기기의 설정을
+                        변경하거나 광고 플랫폼
+                        사업자의 Opt-Out 기능을
+                        활용함으로써 광고 식별자가
+                        관심 사항에 기반하는 광고에
+                        사용되지 못하도록 거부할 수
+                        있습니다.</span></p>
+        <p class="c3"><span class="c0">- 개인 맞춤형 광고 차단</span>
+        </p>
+        <p class="c3"><span class="c0">• iOS : [설정->개인정보
+                        보호->Apple 광고]에서 “맞춤형
+                        광고” 선택 해제</span></p>
+        <p class="c3"><span class="c0">2. 분석 소프트웨어는
+                        이용자가 웹 사이트를
+                        방문하거나 모바일 서비스를
+                        이용할 때 자동으로 생성되는
+                        정보를 분석하기 위해 사용되며,
+                        이용자는 이를 거부할 수
+                        있습니다.</span></p>
+        <p class="c3"><span class="c0">• iOS : [설정->개인정보
+                        보호-> 추적]에서 “앱이 추척을
+                        요청하도록 허용” 선택 해제</span>
+        </p>
+        <p class="c3 c6"><span class="c0"></span></p>
+        <p class="c3"><span class="c1">제 8조 (개인정보
+                        보호책임자)</span></p>
+        <p class="c3"><span class="c4">회사는 개인정보 처리에
+                        관한 업무를 총괄하고 개인정보
+                        처리와 관련한 이용자의
+                        불만처리 및 피해구제 등을
+                        위하여 아래와 같이 개인정보
+                        보호책임자를 지정하고
+                        있습니다.</span></p>
+        <p class="c3"><span class="c0">- 책임자 : 문지희 (대표)</span></p>
+        <p class="c3"><span class="c0">- 문의 : house.of.fx.apps@gmail.com</span></p>
+        <p class="c3"><span class="c4">이용자께서는 회사의
+                        서비스를 이용하시면서 발생한
+                        개인정보 보호 관련 문의,
+                        불만처리, 피해구제 등에 관한
+                        사항에 대하여 개인정보
+                        보호책임자에게 문의하실 수
+                        있으며, 문의하신 내용은 빠른
+                        시일 내에 답변 및 처리해드릴
+                        예정입니다. 다만, 부득이한
+                        사유로 지연이 될 경우 이용자께
+                        다시 안내 드리겠습니다.</span></p>
+        <p class="c3 c6"><span class="c4"></span></p>
+        <p class="c3"><span class="c1">제 9조 (권익침해
+                        구제방법)</span></p>
+        <p class="c3"><span class="c4">이용자는 개인정보
+                        침해에 대한 피해구제나 상담
+                        등이 필요하신 경우에 아래의
+                        기관에 문의하실 수 있습니다</span>
+        </p>
+        <p class="c3"><span class="c0">1.
+                        개인정보분쟁조정위원회 :
+                        (국번없이)1833-6972 / www.kopico.go.kr</span></p>
+        <p class="c3"><span class="c0">2. 개인정보침해신고센터 :
+                        (국번없이)118 / privacy.kisa.or.kr</span></p>
+        <p class="c3"><span class="c0">3. 대검찰청 : (국번없이)1301 /
+                        www.spo.go.kr</span></p>
+        <p class="c3"><span class="c0">4. 경찰청 : (국번없이)182 /
+                        ecrm.cyber.go.kr</span></p>
+        <p class="c3 c6"><span class="c0"></span></p>
+        <p class="c3"><span class="c1">제 10조 (본
+                        개인정보처리방침의 적용
+                        범위)</span></p>
+        <p class="c3"><span class="c0">① 본
+                        개인정보처리방침은 회사가
+                        제공하는 모든
+                        서비스(애플리케이션 및
+                        웹사이트 포함)에 적용되지만,
+                        서비스의 특성이 상이한 경우,
+                        서비스별로 특화된
+                        개인정보처리방침이 적용될 수
+                        있습니다.</span></p>
+        <p class="c3"><span class="c0">② 회사 서비스에
+                        링크되어 있는 다른 회사의
+                        웹사이트를 방문하거나,
+                        방문하신 웹사이트에서
+                        개인정보를 수집하는 경우 본
+                        개인정보처리방침이 적용되지
+                        않습니다.</span></p>
+        <p class="c3 c6"><span class="c0"></span></p>
+        <p class="c3"><span class="c1">제 11조
+                        (개인정보처리방침의 변경 및
+                        고지)</span></p>
+        <p class="c3"><span class="c4">회사는
+                        개인정보처리방침을 수시로
+                        업데이트할 수 있으며, 개정하는
+                        경우 해당 페이지를 통하여
+                        고지할 것이나, 이용자 권리의
+                        중대한 변경이 발생할 때에는
+                        최소 30일전에 알려드리며
+                        이용자 동의를 다시 받을 수도
+                        있습니다.</span></p>
+        <p class="c3 c6"><span class="c4"></span></p>
+        <p class="c3"><span class="c10">이 개인정보처리방침은
+                        2024.04.25</span><span class="c4"> 부터
+                        적용됩니다.</span></p>
+        <p class="c3"><span class="c4">회사의 각 서비스 별
+                        개인정보처리방침은 본
+                        개인정보처리방침으로
+                        대체합니다.</span></p>
+        <p class="c3 c6"><span class="c4"></span></p>
+</body>
+
+</html>
